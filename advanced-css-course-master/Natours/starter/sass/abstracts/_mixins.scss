@@ -27,6 +27,8 @@
  - big-desktop
 */
 
+// ORDER: base + typography > general layout + grid > page layout > components
+
 // 1em = 16px
 // 600/16 = 37.5em
 @mixin respond($breakpoint) {

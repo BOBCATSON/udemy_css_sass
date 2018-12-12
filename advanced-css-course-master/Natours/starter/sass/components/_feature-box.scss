@@ -9,13 +9,21 @@
 
   transition: transform .3s;
 
+  @include respond(tab-port) {
+    padding: 2rem;
+  }
+
   &__icon {
   font-size: 6rem;
   margin-bottom: .5rem;
   display: inline-block;
   color: transparent;
   -webkit-background-clip: text;
-  background-image: linear-gradient(to right, rgba($color-primary-light, 0.8), rgba($color-primary-dark, 0.8))
+  background-image: linear-gradient(to right, rgba($color-primary-light, 0.8), rgba($color-primary-dark, 0.8));
+
+    @include respond(tab-port) {
+      margin-bottom: 0;
+    }
   }
 
   &:hover {
