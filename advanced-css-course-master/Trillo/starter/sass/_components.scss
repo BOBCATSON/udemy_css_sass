@@ -227,16 +227,25 @@
     align-items: center;
   }
 
-  &__rating {
+  &__icon-location {
+    margin-right: .5rem;
+  }
 
+  &__rating {
+    background-color: var(--color-primary);
+    margin-left: 3rem;
+    color: #fff;
+    align-self: stretch;
   }
 
   &__rating-average {
-
+    font-size: 2.25rem;
+    font-weight: 300;
   }
 
   &__rating-count {
-
+    font-size: .8rem;
+    text-transform: uppercase;
   }
 }
 
